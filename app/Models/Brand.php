@@ -24,8 +24,8 @@ class Brand extends Model
     }
 
     // A brand registers many branches
-//    public function branches()
-//    {
-//        return $this->hasMany(Branch::class, 'brand_id');
-//    }
+    public function branches()
+    {
+        return $this->hasMany(Branch::class, 'brand_id');
+    }
 }

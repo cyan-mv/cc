@@ -32,8 +32,8 @@ class Company extends Model
     }
 
     // One company manages many branches
-//    public function branches()
-//    {
-//        return $this->hasMany(Branch::class, 'company_id');
-//    }
+    public function branches()
+    {
+        return $this->hasMany(Branch::class, 'company_id');
+    }
 }
