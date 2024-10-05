@@ -9,7 +9,6 @@ class Company extends Model
 {
     use HasFactory;
 
-    protected $primaryKey = 'company_id';
 
     protected $fillable = [
         'company_name',
@@ -33,8 +32,8 @@ class Company extends Model
     }
 
     // One company manages many branches
-    public function branches()
-    {
-        return $this->hasMany(Branch::class, 'company_id');
-    }
+//    public function branches()
+//    {
+//        return $this->hasMany(Branch::class, 'company_id');
+//    }
 }
