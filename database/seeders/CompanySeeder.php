@@ -31,19 +31,20 @@ class CompanySeeder extends Seeder
                 'logo' => 'yum-logo.png',
             ],
             [
-                'company_name' => 'McDonald\'s',
-                'legal_name' => 'McDonald\'s Corporation',
-                'tax_id' => '987-654-321 (EXAMPLE)',
-                'phone' => '18006253678',
-                'address' => '110 N Carpenter St, Chicago, IL 60607, USA',
-                'email' => 'contact@mcdonalds.com',
-                'website' => 'www.mcdonalds.com',
-                'city' => 'CHICAGO',
-                'state' => 'ILLINOIS',
+                'company_name' => 'Inspire Brands',
+                'legal_name' => 'Inspire Brands, Inc.',
+                'tax_id' => '123-456-789 (EXAMPLE)', // Replace with the actual tax ID if available
+                'phone' => '18006252345', // Example phone number
+                'address' => 'Three Glenlake Parkway NE, Atlanta, GA 30328, USA',
+                'email' => 'contact@inspirebrands.com',
+                'website' => 'www.inspirebrands.com',
+                'city' => 'ATLANTA',
+                'state' => 'GEORGIA',
                 'country' => 'US',
                 'status' => 'active',
-                'logo' => 'mcdonalds-logo.png',
+                'logo' => 'inspire-brands-logo.png',
             ]
+
             // Add more companies here if needed
         ];
 

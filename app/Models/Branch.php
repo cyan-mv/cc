@@ -9,7 +9,6 @@ class Branch extends Model
 {
     use HasFactory;
 
-    protected $primaryKey = 'branch_id'; // Set the primary key
 
     protected $fillable = [
         'branch_name',
