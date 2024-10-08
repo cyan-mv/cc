@@ -22,8 +22,8 @@ class UserSeeder extends Seeder
                 'remember_token' => null,
             ],
             [
-                'name' => 'vendor',
-                'email' => 'vendor@gmail.com',
+                'name' => 'venice',
+                'email' => 'venice@gmail.com',
                 'password' => Hash::make('toast'), // Secure password hashing
                 'remember_token' => null,
             ]
