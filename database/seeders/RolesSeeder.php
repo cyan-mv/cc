@@ -17,11 +17,11 @@ class RolesSeeder extends Seeder
         $roles = [
             [
                 'id' => 1,
-                'name' => 'Admin',
+                'name' => Role::ROLES['Admin'],
             ],
             [
                 'id' => 2,
-                'name' => 'Vendor',
+                'name' => Role::ROLES['User'],
             ]
         ];
         Role::insert($roles);
