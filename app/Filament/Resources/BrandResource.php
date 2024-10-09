@@ -47,7 +47,11 @@ class BrandResource extends Resource
                 Tables\Columns\TextColumn::make('location')->sortable()->searchable(),
                 Tables\Columns\TextColumn::make('category')->sortable(),
                 Tables\Columns\TextColumn::make('company.company_name')->label('Company'),
-                Tables\Columns\ImageColumn::make('logo')->label('Logo'),
+                Tables\Columns\ImageColumn::make('logo')
+                    ->label('Logo')
+
+
+
             ])
             ->filters([
                 // Add filters if needed
